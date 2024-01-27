@@ -1,119 +1,58 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>学校介绍</title>
+    <title>WearOS 管家</title>
     <style>
         body {
-            font-family: "Google Sans", Arial, sans-serif;
-            line-height: 1.6;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f2f2f2;
             margin: 0;
-            background: url('background-image.jpg') center center fixed;
-            background-size: cover;
-            color: #333;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
         }
 
         h1 {
             color: #4285f4;
         }
 
-        h2 {
-            color: #0d47a1;
-        }
-
         p {
-            color: #555;
+            color: #333333;
         }
 
-        header, section, footer {
-            background-color: rgba(255, 255, 255, 0.8);
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 5px;
-            margin-bottom: 10px;
-        }
-
-        .floating-icon {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background-color: #0d47a1;
+        .download-button {
+            background-color: #4285f4;
             color: #ffffff;
-            padding: 10px;
-            border-radius: 50%;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .popup-menu {
-            position: fixed;
-            bottom: 60px;
-            right: 20px;
-            background-color: rgba(255, 255, 255, 0.8);
-            padding: 10px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-            display: none;
-        }
-
-        .popup-menu a {
-            display: block;
-            color: #333;
+            padding: 10px 20px;
+            font-size: 16px;
             text-decoration: none;
-            padding: 8px;
-            margin-bottom: 5px;
+            border-radius: 5px;
+            margin-top: 20px;
+            display: inline-block;
         }
     </style>
 </head>
+
 <body>
-    <header>
-        <h1>欢迎来到我们的学校</h1>
-    </header>
-
-    <section>
-        <img src="image.jpg" alt="学校图片">
-        <h2>学校概况</h2>
-        <p>我们学校致力于提供高质量的教育，培养学生全面发展。</p>
-    </section>
-
-    <section>
-        <h2>设施</h2>
-        <p>学校拥有现代化的教学设施、图书馆、实验室和运动场，为学生提供良好的学习和发展环境。</p>
-    </section>
-
-    <section>
-        <h2>课程</h2>
-        <p>我们提供丰富多彩的课程，涵盖科学、艺术、体育等多个领域，以满足学生不同的兴趣和需求。</p>
-    </section>
-
-    <footer>
-        <p>感谢您对我们学校的关注！如有任何问题，请随时联系我们。</p>
-    </footer>
-
-    <div class="floating-icon" onclick="toggleMenu()">+</div>
-
-    <div class="popup-menu" id="popupMenu">
-        <a href="#">联系我们</a>
-        <a href="#">招生信息</a>
-        <a href="#">校园活动</a>
+    <div class="container">
+        <h1>WearOS 管家</h1>
+        <p>一个免Root的手表工具箱，同时也支持手机给手机刷机，也可以手表刷机，支持自定义操作，免费开源，基于scene和autojs和pio部分代码，有bug反馈在软件反馈给我</p>
+        <a href="https://twmcy.github.io/WearOS.apk" class="download-button">下载软件</a>
     </div>
-
-    <script>
-        function toggleMenu() {
-            var menu = document.getElementById('popupMenu');
-            menu.style.display = (menu.style.display === 'block') ? 'none' : 'block';
-        }
-    </script>
 </body>
+
 </html>
