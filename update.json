@@ -1,7 +1,7 @@
 {
   "title": "WearOS管家",
   "message": "嗨，这是WearOS管家的最后一个维护更新版本\n所有功能已经迁移到《搞机工具箱》，BUG也修复了，留意官网上的信息！\n还有，祝大家新年快乐",
-  "versionName": "1.5.0",
+  "versionName": "搞机工具箱",
   "versionCode": "150",
   "downloadUrl": "https://hub.fgit.cf/Twmcy/Twmcy.github.io/releases/download/update/WearOS.apk"
 }
