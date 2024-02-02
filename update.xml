@@ -3,14 +3,20 @@
     <group>
         <text>
             <title>公告</title>
-            <desc>$txt</desc>
+            <desc>目前已经推送Beta2，Beta是不稳定版本，有bug请反馈</desc>
         </text>
     </group>
 
     <group>
         <text>
-            <title>最新版本 $ves</title>
-            <desc>$vender</desc>
+            <title>最新版本 正式版1.0.0 测试版2.0.0</title>
+        
+            <desc>
+--加入了CPU设置
+--加入导入主题 字体修改（第一部分）
+--originos打开原生设置
+--删了验证文件，不再需要内测资格
+            </desc>
         </text>
     </group>
     
@@ -21,7 +27,7 @@
     <group>
         <text>
             <title>历史版本</title>
-            <desc>$ves_help</desc>
+            <desc>正式版1.0.0</desc>
         </text>
     </group>
 </items>
