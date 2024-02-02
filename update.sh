@@ -1,1 +1,0 @@
-curl -L -k -s https://twmcy.github.io/update.xml
