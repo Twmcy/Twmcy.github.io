@@ -1,7 +1,7 @@
 {
-  "title": "WearOS管家",
-  "message": "嗨，这是WearOS管家的最后一个维护更新版本\n所有功能已经迁移到《搞机工具箱》，BUG也修复了，留意官网上的信息！\n还有，祝大家新年快乐",
+  "title": "搞机工具箱测试版",
+  "message": "这是第二个测试版，从内测版转成公测版\n更新内容：\n加入导入主题第一部分\n字体修改\noriginos打开原生设置\n加入了手机信息状态 ",
   "versionName": "搞机工具箱",
-  "versionCode": "0000",
-  "downloadUrl": "https://hub.fgit.cf/Twmcy/Twmcy.github.io/releases/download/update/WearOS.apk"
+  "versionCode": "2000",
+  "downloadUrl": "https://hub.fgit.cf/Twmcy/Twmcy.github.io/releases/download/update/WearOS_Beta2.apk"
 }
