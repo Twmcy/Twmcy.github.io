@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<items>
+    <group>
+        <text>
+            <title>公告</title>
+            <desc>$txt</desc>
+        </text>
+    </group>
+
+    <group>
+        <text>
+            <title>最新版本 $ves</title>
+            <desc>$vender</desc>
+        </text>
+    </group>
+    
+    <group>
+        <page html="http://twmcy.github.io" title="网站"/>
+    </group>
+
+    <group>
+        <text>
+            <title>历史版本</title>
+            <desc>$ves_help</desc>
+        </text>
+    </group>
+</items>
+EOL
+# 傻逼东西你妈死了偷你妈的傻逼，把你妈给偷了
