@@ -1,7 +1,7 @@
 {
-  "title": "Scene4.7.3",
-  "message": "嗨，这是Scene4的最后一个维护更新版本，只包含了一些极小的修改。\n之后的重大变更将会在新年由Scene5发布，敬请期待并留意官网上的信息！\n",
-  "versionName": "0.0.0",
-  "versionCode": "0000",
-  "downloadUrl": "https://github.com/helloklf/vtools/releases/download/4.7.3/app-release_mini.apk"
+  "title": "搞机工具箱测试版",
+  "message": "这是第三个测试版，也就是最后一个测试版版本，正式版即将发布\n更新内容：Beta3.0\n进程管理\n修复bug\n哄醒应用root\n减少apk大小",
+  "versionName": "搞机工具箱Beta3",
+  "versionCode": "2003",
+  "downloadUrl": "https://share.feijipan.com/s/MHUL84Gh"
 }
