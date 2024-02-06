@@ -1,7 +1,7 @@
 {
-  "title": "搞机工具箱测试版",
-  "message": "这是第三个测试版，也就是最后一个测试版版本，正式版即将发布\n更新内容：修复严重的bug",
-  "versionName": "搞机工具箱Beta3.1",
-  "versionCode": "2004",
+  "title": "搞机工具箱",
+  "message": "这是2.0.0第一个正式版\n更新内容：加入了（忘了）\n修复了bug",
+  "versionName": "玩机工具箱2.0.0正式版",
+  "versionCode": "2005",
   "downloadUrl": "https://share.feijipan.com/s/hLULuVHO"
 }
