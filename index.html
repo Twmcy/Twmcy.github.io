@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>玩机工具箱（新年快乐）--官方网站</title>
+    <title>过年快乐 - 玩机工具箱</title>
     <style>
         body {
             font-family: 'Roboto', sans-serif;
-            background-color: #f2f2f2;
+            background-color: #1a1a1a; /* 深灰色背景 */
+            color: #fff;
             margin: 0;
             padding: 0;
             display: flex;
@@ -18,41 +19,74 @@
             height: 100vh;
         }
 
-        .container {
-            background-color: #ffffff;
+        header {
+            background-color: #333; /* 深灰色背景 */
+            color: #00bfff; /* 亮蓝色字体 */
+            padding: 15px;
+            text-align: center;
+            border-radius: 10px;
+            width: 80%; /* 调整窗口宽度 */
+            margin: 0 auto; /* 居中 */
+        }
+
+        section {
+            background-color: #fff;
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
+            margin: 20px;
+            text-align: left;
+            color: #333; /* 深灰色字体 */
+            width: 80%; /* 调整窗口宽度 */
+            margin: 0 auto; /* 居中 */
         }
 
         h1 {
-            color: #4285f4;
+            color: #00bfff; /* 亮蓝色字体 */
         }
 
-        p {
-            color: #333333;
+        ul {
+            list-style-type: none;
+            padding: 0;
         }
 
-        .download-button {
-            background-color: #4285f4;
-            color: #ffffff;
+        li {
+            margin-bottom: 10px;
+        }
+
+        #downloadButton {
+            background-color: #00bfff; /* 亮蓝色按钮 */
+            color: #fff;
             padding: 10px 20px;
-            font-size: 16px;
             text-decoration: none;
             border-radius: 5px;
+            display: block;
             margin-top: 20px;
-            display: inline-block;
+            text-align: center;
         }
     </style>
 </head>
 
 <body>
-    <div class="container">
-        <h1>介绍</h1>
-        <p>扩展手机系统，自定义化操作，定时任务，Root，Magisk工具箱，Termux工具箱，手机优化，屏蔽广告</p>
-        <a href="https://share.feijipan.com/s/uQUSKzdt" class="download-button">下载软件</a>
-    </div>
+    <header>
+        <h1>新春快乐！玩机工具箱祝您过年好</h1>
+    </header>
+
+    <section>
+        <h2>工具箱功能</h2>
+        <ul>
+            <li>扩展手机系统</li>
+            <li>自定义化操作</li>
+            <li>定时任务</li>
+            <li>Root</li>
+            <li>Magisk工具箱</li>
+            <li>Termux工具箱</li>
+            <li>手机优化</li>
+            <li>屏蔽广告</li>
+        </ul>
+
+        <a id="downloadButton" href="https://share.feijipan.com/s/uQUSKzdt">点击下载工具箱</a>
+    </section>
 </body>
 
 </html>
