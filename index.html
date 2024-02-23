@@ -64,6 +64,66 @@
             margin-top: 20px;
             text-align: center;
         }
+        /* 悬浮按钮样式 */
+.float-btn {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  transition: background-color 0.3s;
+}
+
+.float-btn:hover {
+  background-color: #0056b3;
+}
+
+/* 菜单项样式 */
+.menu {
+  display: none;
+  position: fixed;
+  right: 20px;
+  bottom: 90px;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.menu-item {
+  display: block;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.menu-item:hover {
+  background-color: #f0f0f0;
+}
+
+/* 动画 */
+@keyframes slideIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.menu-show {
+  display: block;
+  animation: slideIn 0.3s ease-out;
+}
     </style>
 </head>
 
@@ -88,5 +148,27 @@
         <a id="downloadButton" href="https://share.feijipan.com/s/mUATZuY3">点击下载工具箱</a>
     </section>
 </body>
+<!-- 悬浮按钮 -->
+<button class="float-btn" id="floatBtn">☰</button>
 
+<!-- 菜单内容 -->
+<div class="menu" id="menu">
+  <a href="#" class="menu-item">菜单项 1</a>
+  <a href="#" class="menu-item">菜单项 2</a>
+  <a href="#" class="menu-item">菜单项 3</a>
+</div>
+
+<script>
+// JavaScript 控制菜单的显示和隐藏
+const floatBtn = document.getElementById('floatBtn');
+const menu = document.getElementById('menu');
+
+floatBtn.onclick = function() {
+  if (menu.classList.contains('menu-show')) {
+    menu.classList.remove('menu-show');
+  } else {
+    menu.classList.add('menu-show');
+  }
+};
+</script>
 </html>
